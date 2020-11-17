@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+}
+header h1{
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 80px;
+}
+.form{
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+.form form{
+    width: 90%;
+    margin: auto;
+}
+.form form input{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 2px;
+    background: white;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    font-size: 1.2em;
+}
+.form form button{
+    border: 1px solid black;
+    background: white;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section .total-a-pagar{
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr;
+    grid-gap: 2px;
+}
+section .total-a-pagar .td{
+    padding: 20px;
+    padding-left: 0;
+    text-align: center;
+    box-shadow: 1px 0px 4px rgb(141, 140, 140);
+}
+section .interpolacion{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-bottom: 0.5px solid black;
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr;
+    grid-gap: 2px;
+    padding: 10px;
+}
+section .interpolacion .td{
+    text-align: center;
+    font-size: 0.9em;
+    hyphens: auto;
+    height: auto;
+}
+section .pagoTotal{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 0.5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    
+}
+section .pagoTotal .resultTotal{
+    background: green;
+    padding: 10px;
+}
+section .pagoTotal .total{
+    text-align: right;
+    margin-right: 10px;
+    padding: 10px;
+}
